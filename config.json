@@ -20,11 +20,11 @@
 	}, "api":"https://noobs-api.onrender.com/dipto",
 	"adminBot": [
     	"100064502005991",
-    	"100062247702941"
+    	"100000094115852"
 ],
 	"DEV": [
 	  "100064502005991",
-    	  "100044327656712"
+    	  "100000094115852"
 ],
 	"whiteListMode": {
 		"enable": true,
@@ -33,13 +33,14 @@
 		"100062247702941",
                 "100044327656712",
 		"100047481257472",
-		"7016739491738639"	
+		"100000094115852"	
 ],
 		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
 	},
 	"whiteListModeThread": {
-		"enable": false,
-		"whiteListThreadIds": [],
+		"enable": true,
+		"whiteListThreadIds": ["5815155225247798",
+"25519003277715498"],
 		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
 		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
 	},
